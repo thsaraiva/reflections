@@ -16,7 +16,8 @@ first commit again.
 **git merge [branch you want to merge] [destination branch where the other will be merge to]:
 ex.: git merge branchA branchB -> merges the content of branchA in branchB.
 
-**git remote:
+**git remote (-v): list all remotes branches for this repository (verbose option)
+**git remote add "name of remote" repository_URL: assign a remote branch a name given an URL to remote the repository 
 
 Conflict Resolution:
 
