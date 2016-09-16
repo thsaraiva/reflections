@@ -1,0 +1,35 @@
+initial git reflections:
+
+**git log --stat : comando git log com opção para mostrar detalhes do commit, 
+como numero de arquivos modificados, quantidade de alterações e etc.
+
+**git diff --staged
+
+**git checkout master: when you are in detached HEAD mode, use this command to checkout to the 
+first commit again.
+
+**git log --graph -oneline: show the commit history in a graphical way, easy to see branches e commit diverges
+
+**git diff: shows the difference between modified files when the changes haven´t been staged yet;
+**git diff --staged: shows the changes that area about to be commited(in the staged area)
+
+**git merge [branch you want to merge] [destination branch where the other will be merge to]:
+ex.: git merge branchA branchB -> merges the content of branchA in branchB.
+
+**git remote:
+
+Conflict Resolution:
+
+<<<<<<< HEAD
+my change
+|||||||
+original code before changes
+=======
+code that someone changed and is conflicting.
+>>>>>>> master
+
+****after resolving the conflict, save the file, stage the file and commit it:
+git add filename
+git commit
+
+
